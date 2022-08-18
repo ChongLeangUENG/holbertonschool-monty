@@ -67,7 +67,7 @@ LIFO stand for Last In First Out
 *	All your header files should be include guarded
 *	You are expected to do the tasks in the order shown in the project
 
-# Compilation & Output
+# Data Structure
 
 ```sh
 typedef struct stack_s
@@ -84,7 +84,7 @@ typedef struct instruction_s
 	} instruction_t;
 
 ```
-# Compilation
+# Compilation & Output
 ```sh
 $ gcc -Wall -Werror -Wextra -pendantic -std=c90 *.c -o monty
 ```
