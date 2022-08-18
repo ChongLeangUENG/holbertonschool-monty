@@ -50,5 +50,6 @@ void __pall(stack_t **stack, unsigned int line_number);
 void free_all(stack_t *stack, char *line, FILE *ptr);
 void __push(char *token, stack_t **stack, unsigned int line_number);
 void __pint(stack_t **stack, unsigned int line_number);
+void __pop(stack_t **stack, unsigned int line_number);
 
 #endif
