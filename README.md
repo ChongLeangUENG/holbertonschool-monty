@@ -38,20 +38,20 @@ Operations : List of monty operations this interpreted understands:
 *	queue: sets the format of the data to a queue (FIFO)
 
 ## files
-|File Name	| Description|
- ---------	  -----------
-|main_monty.c	|	Main program file|	
-|monty.h|	|Header file|
-get_op_func|
-|__pall.c|
-|__pint.c|
-|__push.c|
-|__nop.c|
-|__add.c|
-|__swap.c|
-|__pop.c|
-|freeall.c|
-|README.md|
+| File Name	| Description	|
+  ---------	|  -----------	|
+| main_monty.c	|	Main program file	|	
+| monty.h	|	Header file	|
+| get_op_func	
+| __pall.c	|
+| __pint.c	|
+| __push.c	|
+| __nop.c	|
+| __add.c	|
+| __swap.c	|
+| __pop.c	|
+| freeall.c	|
+| README.md	|
 
 # General :
 What do LIFO and FIFO mean?
