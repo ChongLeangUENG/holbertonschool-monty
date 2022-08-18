@@ -42,16 +42,16 @@ Operations : List of monty operations this interpreted understands:
   ---------	|  -----------	|
 | main_monty.c	|	Main program file	|	
 | monty.h	|	Header file	|
-| get_op_func	
-| __pall.c	|
-| __pint.c	|
-| __push.c	|
-| __nop.c	|
-| __add.c	|
-| __swap.c	|
-| __pop.c	|
-| freeall.c	|
-| README.md	|
+| get_op_func	|	function, selects the correct funtion to perform the operation |
+| __pall.c	|	opcode print all the values on the stack, starting from the top
+| __pint.c	|	opcode print the value at the top of the stack
+| __push.c	|	opcode pushe an element to the stack
+| __nop.c	|	
+| __add.c	|	opcode add the two tops elements of the stack
+| __swap.c	|	opcode add the two tops elements of the stack
+| __pop.c	|	opcode subtract the top element of the stack from the second top element of the stack
+| freeall.c	|	
+| README.md	|	README for monty projet
 
 # General :
 What do LIFO and FIFO mean?
