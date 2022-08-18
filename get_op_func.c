@@ -14,7 +14,7 @@ int get_op_func(char *line, stack_t **stack, unsigned int line_number)
 		{"pall", __pall},
 		{"pint", __pint},
 		{"pop", __pop},
-		{"swap", __spwa},
+		{"swap", __swap},
 		{NULL, NULL},
 	};
 	int i;
