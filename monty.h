@@ -52,5 +52,6 @@ void __push(char *token, stack_t **stack, unsigned int line_number);
 void __pint(stack_t **stack, unsigned int line_number);
 void __pop(stack_t **stack, unsigned int line_number);
 void __swap(stack_t **stack, unsigned int line_number);
+void __add(stack_t **stack, unsigned int line_number);
 
 #endif
