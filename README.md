@@ -1,11 +1,10 @@
 ## MONTY
 
-# The Monty Langauge :
+# The Monty Langauge 
 Monty, a Language intended to be equally suitable for both scripting and conventional programming. 
-This scripting and programming language was designed by David A. Watt.
-The objective of this project was to create a program that reads this language.
+This scripting and programming language was designed by David A. Watt. The language  is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
-# Usage:
+# Usage
 
 *	monty file :  where file is the path to the file containing Monty byte code
 *	If the user does not give any file or more than one argument to your program, print the error message USAGE: monty file, followed by a new line, and exit with the status EXIT_FAILURE.
