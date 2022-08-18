@@ -28,14 +28,6 @@ Operations : List of monty operations this interpreted understands:
 *	swap: swaps the position of the top two nodes
 *	add: places the sum of the top two nodes into the 2nd node and removes the first
 *	sub: subtracts the top element of the stack from the second top element of the stack
-*	div: divides the second top element of the stack by the top element of the stack
-*	mul: multiples the second top element of the stack with the top element of the stack
-*	mod: computes the rest of the division of the second top element of the stack by the top element of the stack
-*	pchar: prints the char at the top of the stack, followed by a new line
-*	pstr: prints the string starting at the top of the stack, followed by a new line
-*	rotr: rotates the stack to the bottom
-*	stack: sets the format of the data to a stack (LIFO)
-*	queue: sets the format of the data to a queue (FIFO)
 
 ## files
 | File Name	| Description	|
@@ -75,12 +67,28 @@ LIFO stand for Last In First Out
 *	All your header files should be include guarded
 *	You are expected to do the tasks in the order shown in the project
 
-# Compilation And Output
+# Compilation & Output
 
 ```sh
-compilation
+typedef struct stack_s
+    {
+    int n;
+    struct stack_s *prev;
+    struct stack_s *next;
+	} stack_t;
+
+typedef struct instruction_s
+    {
+	char *opcode;
+	void (*f)(stack_t **stack, unsigned int line_number);
+	} instruction_t;
+
+```
+# Compilation
+```sh
 $ gcc -Wall -Werror -Wextra -pendantic -std=c90 *.c -o monty
 ```
+
 # Contributors
 Elizabeth Behaghel
 Chong Lueang
