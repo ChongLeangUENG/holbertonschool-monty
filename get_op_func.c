@@ -24,7 +24,7 @@ int get_op_func(char *line, stack_t **stack, unsigned int line_number)
 			return (EXIT_SUCCESS);
 		}
 	}
-	fprintf(stderr, "L%d: unknow instruction %s\n", line_number, line);
+	fprintf(stderr, "L%d: unknown instruction %s\n", line_number, line);
 	error = 1;
 	return (EXIT_FAILURE);
 }
