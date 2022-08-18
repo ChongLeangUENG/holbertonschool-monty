@@ -1,9 +1,11 @@
 #include "monty.h"
 
 /**
- * get_op_func - 
- * @line:
- * @stack:
+ * get_op_func - Get operation function code
+ * @line: Line to get
+ * @stack: Data structure
+ * @line_number: Number of line to show
+ * Return: EXIT_SUCCESS or EXIT_FAILURE
  *
  */
 int get_op_func(char *line, stack_t **stack, unsigned int line_number)
