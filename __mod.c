@@ -14,7 +14,7 @@ void __mod(stack_t **stack, unsigned int line_number)
 		error = 1;
 		return;
 	}
-	if ((*stack)->n = 0)
+	if ((*stack)->n == 0)
 	{
 		fprintf(stderr, "L%d: division by zero\n", line_number);
 		error = 1;
