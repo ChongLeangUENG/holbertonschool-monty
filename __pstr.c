@@ -7,7 +7,7 @@
  */
 void __pstr(stack_t **stack, unsigned int line_number)
 {
-	stact_t *temp = *stack;
+	stack_t *temp = *stack;
 	(void)line_number;
 
 	if (*stack == NULL)
