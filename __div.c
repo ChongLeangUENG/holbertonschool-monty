@@ -5,7 +5,7 @@
  * @stack: List
  * @line_number: Number of list to divide
  */
-void _div(stack_t **stack, unsigned int line_number)
+void __div(stack_t **stack, unsigned int line_number)
 {
 	if (*stack == NULL || (*stack)->next == NULL)
 	{
