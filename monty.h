@@ -57,5 +57,6 @@ void __nop(stack_t **stack, unsigned int line_number);
 void __sub(stack_t **stack, unsigned int line_number);
 void __div(stack_t **stack, unsigned int line_number);
 void __mul(stack_t **stack, unsigned int line_number);
+void __mod(stack_t **stack, unsigned int line_number);
 
 #endif
