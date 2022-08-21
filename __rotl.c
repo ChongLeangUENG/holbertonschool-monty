@@ -5,7 +5,7 @@
  * @stack: List
  * @line_number: The number of list to add
  */
-void __rotl(stact_t **stack, unsigned int line_number)
+void __rotl(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp = *stack;
 	stack_t *last;
