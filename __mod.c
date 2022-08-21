@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * __mod - computes the rest of the division 
+ * __mod - computes the rest of the division
  * of the second top element of the stack
  * @stack: List
  * @line_number: Number of list to computes
