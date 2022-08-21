@@ -24,6 +24,7 @@ int get_op_func(char *line, stack_t **stack, unsigned int line_number)
 		{"pchar", __pchar},
 		{"pstr", __pstr},
 		{"rotl", __rotl},
+		{"rotr", __rotr},
 		{NULL, NULL},
 	};
 	int i;
